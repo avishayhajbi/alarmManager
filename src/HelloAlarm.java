@@ -50,7 +50,7 @@ public class HelloAlarm extends CordovaPlugin{
       	return false;
     }
     
-    public void activateNotification(int id,String title,String message){
+   /* public void activateNotification(int id,String title,String message){
      
         System.out.println("creating notification");
 		//Context context = webView.getContext();
@@ -74,6 +74,6 @@ public class HelloAlarm extends CordovaPlugin{
         notification.defaults |= Notification.DEFAULT_SOUND;
         notification.defaults |= Notification.DEFAULT_VIBRATE;
         notificationManager.notify(taskId, notification); // to execute
-    }
+    }*/
  
 }

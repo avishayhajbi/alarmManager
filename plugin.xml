@@ -4,7 +4,7 @@
     id="com.plugin.am"
     version="1.0.2">
     <name>am</name>
-    <description>Sample PhoneGap notification Plugin</description>
+    <description>Sample PhoneGap am Plugin</description>
     <license>MIT</license>
     <keywords>phonegap,am</keywords>
 
