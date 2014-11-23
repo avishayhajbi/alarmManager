@@ -34,7 +34,7 @@ public class HelloAlarm extends CordovaPlugin{
           final String message = args.getString(0); 
           	cordova.getActivity().runOnUiThread(new Runnable() { //cordova.getThreadPool().execute(new Runnable() {
 	        	public void run() {
-                    Mytoast myts =  new Mytoast(message);
+                   
 		            android.widget.Toast toast = android.widget.Toast.makeText(webView.getContext(),"alarm manager" , 0);
 		           	toast.setGravity(Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL, 0, 20);
 		           	toast.setDuration(android.widget.Toast.LENGTH_LONG);
