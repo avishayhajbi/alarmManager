@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.am"
+    version="1.0.2">
+    <name>notification</name>
+    <description>Sample PhoneGap notification Plugin</description>
+    <license>MIT</license>
+    <keywords>phonegap,am</keywords>
+
+   <name>am</name>
+
+   <description>
+     This plugin allows to use native notification.
+   </description>
+
+  <engines>
+    <engine name="cordova" version=">=1.7.0" />
+    <engine name="cordova" version="<1.8.1" />
+</engines>
+
+<asset src="www/am.js" target="js/am.js" /> 
+   <js-module src="www/am.js" name="am">
+      <clobbers target="am" />
+   </js-module>
+
+   <!-- android -->
+   <platform name="android">
+      <config-file target="res/xml/config.xml" parent="/*">
+         <feature name="HelloAlarm">
+            <param name="android-package" value="com.plugin.am" />
+         </feature>
+      </config-file>
+      
+      <source-file src="src/am.java" target-dir="src/com/am" />
+   </platform>
+</plugin>
