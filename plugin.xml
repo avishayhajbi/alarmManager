@@ -32,6 +32,6 @@
          </feature>
       </config-file>
       
-      <source-file src="src/am.java" target-dir="src/com/am" />
+      <source-file src="src/HelloAlarm.java" target-dir="src/com/am" />
    </platform>
 </plugin>
