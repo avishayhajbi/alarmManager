@@ -60,7 +60,7 @@ public class HelloAlarm extends CordovaPlugin{
         int taskId = id;
         String notificationText = message;
 
-        Intent intent = new Intent(context,HelloPlugin.class);
+        Intent intent = new Intent(context,HelloAlarm.class);
         intent.setAction(""+taskId);
         intent.putExtra("taskId", id);
         intent.putExtra("notificationText", message );
