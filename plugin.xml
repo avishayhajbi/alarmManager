@@ -49,7 +49,7 @@
 	<source-file src="src/Options.java"           target-dir="src/com/am" />
 	<source-file src="src/Restore.java"           target-dir="src/com/am" />
 	<source-file src="src/ReceiverActivity.java"  target-dir="src/com/am" />
-	 <source-file src="src/android/LocalNotification.java" target-dir="src/com/am" />
+	 <source-file src="src/LocalNotification.java" target-dir="src/com/am" />
      
    </platform>
 </plugin>
